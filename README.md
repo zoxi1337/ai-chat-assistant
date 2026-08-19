@@ -65,15 +65,11 @@ Example:
 
 `sk-...`
 
-Do not share this file or upload it to GitHub.
+Do not share this file!
 
 ### 2. `history.json`
 
-Create an empty JSON array in a file called:
+The `history.json` file does not need to be created manually.
 
-`history.json`
-
-The initial content should be:
-
-```json
-[]
+If the file does not exist, the program will create it automatically
+after the first message and use it to store the chat history.
