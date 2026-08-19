@@ -25,6 +25,15 @@ working with AI models.
 - OpenAI API
 - Windows API
 
+## Dependencies
+
+This project uses the following external libraries:
+
+- [CPR](https://github.com/libcpr/cpr) - HTTP requests
+- [nlohmann/json](https://github.com/nlohmann/json) - JSON parsing and serialization
+
+The project also uses the Windows API for UTF-8 and console input handling.
+
 ## How it works
 
 The program receives text input from the user and converts the
